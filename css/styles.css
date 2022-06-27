@@ -39,6 +39,7 @@ ul {
   background-color: #ffffff;
   font-style: normal;
 }
+
 .header {
   background-color: var(--primary-bg-color);
   padding: 28px 0px;
@@ -73,7 +74,7 @@ ul {
   margin-left: 40px;
 }
 .container {
-  width: 1200px;
+  width: 1205px;
 
   margin: 0 auto;
   margin-left: auto;
@@ -155,6 +156,7 @@ ul {
   color: #18a0fb;
   font-style: normal;
 }
+
 /* Hero */
 .hero {
   background-color: #2f303a;
@@ -325,6 +327,7 @@ ul {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #2f303a;
 }
 .span-logo {
   color: #ffffff;
@@ -406,9 +409,7 @@ ul {
   font-style: normal;
 }
 /* Футер */
-.footer {
-  background-color: #2f303a;
-}
+
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -454,17 +455,19 @@ ul {
 }
 
 /* Портфолио */
-.page-port {
-  background-color: #e5e5e5;
+.header__container-portf {
+  display: flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  justify-content: space-between;
 }
-.page-port .header {
-  background-color: #ececec;
+.header-portf {
+  background-color: var(--primary-bg-color);
+  padding: 28px 0px;
+  outline: 1px solid;
+  outline-color: #ececec;
 }
-.button-port:hover,
-.button-port:focus {
-  color: #757575;
-  color: #2196f3;
-}
+
 .button-port {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -476,25 +479,51 @@ ul {
   font-size: 16px;
   line-height: 30px;
   align-self: center;
-}
-.services {
-  color: #212121;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
-  font-style: bold;
-  font-size: 18px;
-  line-height: 36px;
+  border-radius: 4%;
+  padding: 6px 22px;
+  margin-right: 8px;
 }
 
+.button-port:hover,
+.button-port:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.menu {
+  margin-top: 174px;
+  margin-bottom: 94px;
+}
+.card-filter {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards-list {
+  padding-right: 30px;
+  padding-bottom: 30px;
+  align-content: ;
+}
+
+/* .cards-list:not(:first-child) {
+  padding-right: 30px;
+  padding-top: 30px;
+} */
+.services {
+  font-family: Roboto, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 4px;
+  font-size: 18px;
+  line-height: 2;
+  text-align: start;
+  font-weight: 700;
+}
 .types-of-services {
-  color: #757575;
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  font-style: normal;
   font-size: 16px;
-  line-height: 30px;
-}
-
-.current {
-  color: #18a0fb;
+  line-height: 1.87;
+  text-align: start;
+  padding-bottom: 20px;
 }
