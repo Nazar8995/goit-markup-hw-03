@@ -490,9 +490,23 @@ ul {
   background-color: #2196f3;
 }
 .menu {
-  margin-top: 174px;
-  margin-bottom: 94px;
+  padding-top: 174px;
+  padding-bottom: 94px;
 }
+.container-portf {
+  width: 1205px;
+
+  margin: 0 auto;
+  padding-left: auto;
+  padding-right: auto;
+}
+.section-portf {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 92px;
+  padding-bottom: 94px;
+}
+
 .card-filter {
   text-align: center;
 }
@@ -501,9 +515,8 @@ ul {
   flex-wrap: wrap;
 }
 .cards-list {
-  padding-right: 30px;
-  padding-bottom: 30px;
-  align-content: ;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 /* .cards-list:not(:first-child) {
